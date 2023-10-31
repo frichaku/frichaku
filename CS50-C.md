@@ -13,13 +13,11 @@ Start with: `int main(void)` and open brackets `{}`.
 ## Functions and other monsters
 
 * Printf: `printf("example");`. The first argument inside has to be a string. Type `/n` for new line.
-* Get input: you assign a returned value to a variable, can be `variable = get_string("example ")`; other data type examples are int, char, etc. Inside the `printf` function, you can place format code inside the quotes in the form of a placeholder like `%s`, and follow the string with a comma and the variable name. For example:
-    `string answer = get_string("What's your name? ");`
-    `printf("Hello, %s\n", answer);`
-
- Another way to write this:
-    `printf("Hello, %s\n", get_string("What's your name? "));`
-
+* Get input: you assign a returned value to a variable, can be `variable = get_string("example ")`; other data type examples are int, char, etc. Inside the `printf` function, you can place format code inside the quotes in the form of a placeholder like `%s`, and follow the string with a comma and the variable name. For example:  
+ `string answer = get_string("What's your name? ");`  
+ `printf("Hello, %s\n", answer);`  
+ Another way to write this:  
+ `printf("Hello, %s\n", get_string("What's your name? "));`  
  This does not save the input in a variable that can be reused.
 
 * Annotate by starting a line with `//`.
