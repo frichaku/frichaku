@@ -4,7 +4,7 @@ Disclaimer: this might contain incorrect information! I am baby!
 
 ## Starter info, header files and boilerplate
 
-C is a low-level language that requires more information from the coder than you'd expect from a higher-level language. This means that memory allocation is a factor to take into account when programming in C. It also matters which data types you use, as there are options that are more or less limited in size (for example, the data type `int` accepts roughly 32-bit integers, but `long` accepts up to about 64-bit integers).
+C is a low-level language that requires more information from the coder than you'd expect from a higher-level language. This means that memory allocation is a factor to take into account when programming in C. It also matters which data types you use, as there are options that are more or less limited in size (for example, the data type `int` is used for 32-bit sized integers, but `long` is used for 64-bit integers).
 
 CS50 requires using two extensions provided in the virtual codespace of the course. For the CS50 library: `#include <CS50.h>`. For the Standard input-output library: `#include <stdio.h>`.
 
@@ -17,10 +17,10 @@ Start with: `int main(void)` and open brackets `{}`.
     `string answer = get_string("What's your name? ");`
     `printf("Hello, %s\n", answer);`
 
-Another way to write this:
+ Another way to write this:
     `printf("Hello, %s\n", get_string("What's your name? "));`
 
-This does not save the input in a variable that can be reused.
+ This does not save the input in a variable that can be reused.
 
 * Annotate by starting a line with `//`.
 * Syntactic sugar: in designing a counter variable that repeatedly changes by the same amount, you can write it out as `counter = counter + 1;`, but also as `counter += 1;`. If you're only incrementing or decreasing by one, additionally, you can type it out as `counter++;`. You will need to specify the data type of the variable the first time you define it.
